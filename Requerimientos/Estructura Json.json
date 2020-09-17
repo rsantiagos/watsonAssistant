@@ -1,0 +1,123 @@
+Pregunta 1: Muestra el Top 5 de la fuerza de venta actual que en diciembre de 2017 ha traído a Telcel más portaciones con modo de suscripción prepago
+{
+  "output": {
+    "text": {
+      "values": [
+        "La Fuerza de Venta  en @meses es:"
+      ],
+      "selection_policy": "sequential"
+    },
+    "datos": {
+      "mes": "@mes",
+      "top": "@top",
+      "anio": "@sys-number",
+      "pregunta": "1"
+    }
+  }
+}
+Pregunta 5:  Cuál es la región de portabilidad prepago con el modo de suscripción prepago que en diciembre de 2017 más megabytes descargó y cuántos megabytes fueron.
+{
+  "output": {
+    "text": {
+      "values": [
+        "La region que mas megas consumio en el mes de @meses es:"
+      ],
+      "selection_policy": "sequential"
+    },
+    "datos": {
+      "mes": "@mes",
+      "anio": "@sys-number",
+      "pregunta": "5"
+    }
+  }
+Pregunta 5.1: La region R2 cuantos megabytes descargó con modalidad prepago en diciembre de 2017.
+{
+  "output": {
+    "text": {
+      "values": [
+        "Los Megas que la region @region descargo en @meses son:"
+      ],
+      "selection_policy": "sequential"
+    },
+    "datos": {
+      "mes": "@mes",
+      "anio": "@sys-number",
+      "region": "@region",
+      "pregunta": "5"
+    }
+  }
+}
+
+Pregunta 3: Muestra el total de líneas por región que llegaron a Telcel en diciembre de 2017 con modo de suscripción prepago que tengan rol de LIDER ordenados de manera ascendente.
+{
+  "output": {
+    "text": {
+      "values": [
+        "El total de lineas por region en @meses con rol @rol es:"
+      ],
+      "selection_policy": "sequential"
+    },
+    "datos": {
+      "mes": "@mes",
+      "rol": "@rol",
+      "anio": "@sys-number",
+      "pregunta": "3"
+    }
+  }
+}
+
+
+Pregunta 3.1: Muestra el total de líneas en la region R2 que llegaron a Telcel en diciembre de 2017 con modo de suscripción prepago que tengan rol de LIDER ordenados de manera ascendente.
+{
+  "output": {
+    "text": {
+      "values": [
+        "El total de lineas en la region @region en @meses con rol @rol es:"
+      ],
+      "selection_policy": "sequential"
+    },
+    "datos": {
+      "mes": "@mes",
+      "rol": "@rol",
+      "anio": "@sys-number",
+      "region": "@region",
+      "pregunta": "3"
+    }
+  }
+}
+
+Pregunta 4:  Muestra las líneas que se portaron en diciembre de 2017 a Telcel con el modo de suscripción prepago, cuya fuerza de venta actual sea diferente al canal de venta de activación
+{
+  "output": {
+    "text": {
+      "values": [
+        "El numero de lineas por region en el mes de @meses son:"
+      ],
+      "selection_policy": "sequential"
+    },
+    "datos": {
+      "mes": "@mes",
+      "anio": "@sys-number",
+      "pregunta": "4",
+      "condicional": "@condicional"
+    }
+  }
+}
+Pregunta 4.1: Muestra las líneas que se portaron en la region R2 en diciembre de 2017 a Telcel con el modo de suscripción prepago, cuya fuerza de venta actual sea diferente al canal de venta de activación
+{
+  "output": {
+    "text": {
+      "values": [
+        "El numero de lineas en la region @region en el mes de @meses son:"
+      ],
+      "selection_policy": "sequential"
+    },
+    "datos": {
+      "mes": "@mes",
+      "anio": "@sys-number",
+      "region": "@region",
+      "pregunta": "4",
+      "condicional": "@condicional"
+    }
+  }
+}

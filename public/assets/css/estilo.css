@@ -1,0 +1,14 @@
+#all_chat {
+    overflow: hidden;
+}
+
+#cont_mensajes_chat {
+    height: 78%;
+    overflow-y: scroll;
+    margin-top: -15px;
+}
+
+#btn_send_message {
+    border: none;
+    left: 0;
+}
